@@ -22,12 +22,15 @@ Kaggle offers free hosted notebooks (with GPUs), datasets, and competition envir
 > To submit to a competition, the notebook must be saved after a full run. Saving alone is not enough.
 
 Save Version
+
 ![Save Version](../images/Kaggle_save_1.png)
 
 **Save & Run All**
+
 ![**Save & Run All**](../images/Kaggle_save_2.png)
 
 Give meaningful names
+
 ![img.png](../images/Kaggle_save_3.png)
 ---
 
@@ -41,15 +44,19 @@ Follow this workflow when working on a homework:
 - Attach necessary datasets via the sidebar
 
 Linking the notebook to a competition
+
 ![](../images/Kaggle_hw_1.png)
 
 You can check the competition input and add additional datasets in the sidebar. 
+
 ![](../images/Kaggle_hw_2.png)
 
 You can set up accelerator and pin to the original environment to avoid code-aging errors. 
+
 ![](../images/Kaggle_hw_3.png)
 
 You can also access accelerator using the Settings tab
+
 ![](../images/Kaggle_hw_4.png)
 
 ### Step 2: Implement your solution
@@ -79,10 +86,13 @@ Do not submit notebooks that haven’t been executed
 > Tip: You can view past versions from the "Version" tab in the notebook editor
 
 After a notebook has been saved and run, the submission.csv file is vizible in the **Output** section of the saved Notebook.
+
 ![img.png](../images/Kaggle_hw_5.png)
+
 ### Step 4: Submit to competition
 
-**Submit to Competition**
+Click **Submit to Competition**
+
 ![img.png](../images/Kaggle_hw_6.png)
 
 Select a Notebook and the version. Also add a submission description.
@@ -96,6 +106,7 @@ On the notebook page, click **Share**, select Private and share with people.
 ![img.png](../images/Kaggle_hw_7.png)
 
 Always share with onepathsilkworm and give appropriate permissions.
+
 ![img.png](../images/Kaggle_hw_8.png)
 
 
