@@ -114,14 +114,14 @@ Always share with onepathsilkworm and give appropriate permissions.
 
 ### Quick Checklist Before Submitting
 
-- [ ] Notebook is linked to the correct competition
-- [ ] Dataset is correctly loaded
-- [ ] `submission.csv` is generated in code
-- [ ] Used **Save & Run All**
-- [ ] Submission file is created and visible in output
-- [ ] Notebook version is named clearly
-- [ ] Correct version is selected for submission
-- [ ] Notebook is shared with the reviewer
+- [x] Notebook is linked to the correct competition
+- [x] Dataset is correctly loaded
+- [x] `submission.csv` is generated in code
+- [x] Used **Save & Run All**
+- [x] Submission file is created and visible in output
+- [x] Notebook version is named clearly
+- [x] Correct version is selected for submission
+- [x] Notebook is shared with the reviewer
 
 ---
 
