@@ -26,7 +26,7 @@ Setup guides for common tools and platforms:
 ### Core Learning ([`/foundations`](./foundations))
 Fundamentals and structured learning paths:
 - [Learning Roadmap](./foundations/roadmap.md)
-- [Math & Stats Prerequisites](./foundations/prerequisites.md)
+- [Prerequisites](./foundations/prerequisites.md)
 - [Getting Started in ML](./foundations/how_to_start_ml.md)
 - [Neural Network Basics](./foundations/neural_network_basics.md)
 
