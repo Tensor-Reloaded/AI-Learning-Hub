@@ -32,4 +32,5 @@ For those with foundational knowledge, use the resources below to deepen your ex
 - [Natural Language Processing (NLP)](../resources/NLP/) - Classical NLP, Transformers, LLMs  
 - [Advanced PyTorch](../resources/advanced_pytorch.md) – Performance tips, C++ extensions, custom backprop, dataloading
 - [MLOps](../resources/mlops.md) - Experiment tracking, versioning, deployment 
-- [Papers Collection](../resources/nice_papers.md) - Curated foundational and topic-specific research
+- [Papers collection](../resources/nice_papers.md) - Curated foundational and topic-specific research
+- [Recommended books](../resources/books.md) - Established references for deep learning and ML theory
