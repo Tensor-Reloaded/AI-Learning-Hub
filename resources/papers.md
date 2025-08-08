@@ -50,12 +50,13 @@ Papers proposing efficient or alternative attention mechanisms.
 
 ## Architectures
 
-- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/pdf/2103.03206) (Perceiver, 2021)
-- [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/pdf/2107.14795) (PerceiverIO, 2021)
 - [xLSTM: Extended Long Short-Term Memory](https://arxiv.org/pdf/2405.04517) (xLSTM, 2024)
+- [Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/pdf/2111.00396) (S4, 2022)
 - [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/pdf/2312.00752) (Mamba, 2023)
 - [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/pdf/2405.21060) (Mamba-2, 2024)
 - [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/pdf/2302.10866) (Hyena, 2023)
+- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/pdf/2103.03206) (Perceiver, 2021)
+- [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/pdf/2107.14795) (PerceiverIO, 2021)
 
 ---
 

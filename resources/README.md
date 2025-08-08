@@ -9,3 +9,9 @@
 * [PyTorch (beginner)](./beginner_pytorch) - PyTorch tutorials, tips and tricks.
 * [PyTorch (advanced)](./advanced_pytorch) - Advanced PyTorch tutorials, performance optimization.
 
+*** 
+
+## Additional resources:
+
+* Follow https://github.com/lucidrains/vit-pytorch for SOTA ViT advancements.
+* Follow https://github.com/lucidrains/x-transformers for SOTA Transformer advancements.
