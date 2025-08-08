@@ -18,7 +18,7 @@ conda config --add channels conda-forge
 conda install numpy
 ```
 
-2. Install the stable PyTorch (2.7.1+) from [pytorch.org](https://pytorch.org/get-started/locally/) using pip.
+2. Install the stable PyTorch (2.8.0+) from [pytorch.org](https://pytorch.org/get-started/locally/) using pip.
 
 * Example CPU: `pip install torch torchvision`
 * Example CUDA 12.8: `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128`
@@ -29,9 +29,10 @@ conda install numpy
 ---
 
 Tips:
-* Linux and WSL-based projects are faster than on Windows. Mac with M3 and M4 is also a good alternative.
+* Linux and WSL-based projects are faster than Windows-based. Mac with M3 and M4 is also a good alternative.
+
 * Stay up-to-date with the cuda versions.
 * Stay up-to-date with the python and PyTorch versions.
 
 Advanced tips:
-* Building from source and using the C++ API for serving models optimizes the memory footprint and startup time.
+* Building from source and using the C++ API for serving models optimizes the memory footprint and startup time. 
