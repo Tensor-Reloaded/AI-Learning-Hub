@@ -19,7 +19,8 @@ We recommend following these chapters in order:
 * Chapter 5. Multilayer Perceptrons: https://d2l.ai/chapter_multilayer-perceptrons/index.html
 
 > The remaining chapters go deeper into advanced architectures and training techniques. Return to them once you've built a solid foundation.
-
+> 
+> Alternatively, you may use https://course.fast.ai/.
 
 ---
 
@@ -29,5 +30,6 @@ We recommend following these chapters in order:
 Helps build a conceptual understanding.
 * [Stanford CS231, Backpropagation, Intuitions](https://cs231n.github.io/optimization-2/) - 
 Precise and rigorous. Useful for understanding how gradients are computed.
+
 
 
