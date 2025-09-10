@@ -110,4 +110,10 @@ Landmark papers in object detection, classification, and modern CV techniques.
 ## Natural Language Processing (NLP)
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805) (BERT, 2018)
-- TODO
+- [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165) (GPT-3, 2020)
+- [Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155) (InstructGPT, 2022)
+- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971) (LLaMA, 2023)
+- [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692) (RoBERTa, 2019)
+- [Learning to Summarize with Human Feedback](https://arxiv.org/pdf/2009.01325) (RLHF Summarization, 2020)
+- [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903) (CoT, 2022)
+- [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961) (Switch Transformer, 2021)

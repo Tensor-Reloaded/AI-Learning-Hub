@@ -15,8 +15,9 @@ Start with:
 
 ## Notebooks Overview
 
-* [01. Custom Dataset]()
-* [02. DataLoader]()
-* [03. Simple Training]()
-* [04. Learning Rate Schedulers]()
-* [05. Data Augmentation]()
+* [01. Custom Dataset](./01_custom_dataset.ipynb)
+* [02. DataLoader](./02_dataloader.ipynb)
+* [03. Simple Training](./03_simple_training.ipynb)
+* [04. Optimizers](./04_optimizers.ipynb)
+* [05. Learning Rate Schedulers](./05_lr_schedulers.ipynb)
+* [06. Simple Data Augmentation](./06_data_augmentation.ipynb)
