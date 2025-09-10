@@ -10,7 +10,7 @@ If you're just getting started:
 
 1. [Learning Roadmap](./foundations/roadmap.md) – Paths by role and interest  
 2. [Foundations](./foundations/) – Core math, ML, and neural network concepts  
-3. [Resources](./resources/) – Books, papers, and videos by topic
+3. [Resources](./resources/) – Books, papers, and tutorials
 ---
 
 ## Repository Overview

@@ -27,10 +27,10 @@ If you want to understand what you're doing and go beyond using tools:
 ## Advanced Learners
 
 For those with foundational knowledge, use the resources below to deepen your expertise:
-
-- [Computer Vision (CV)](../resources/CV/) - CNNs, object detection, Vision Transformers  
-- [Natural Language Processing (NLP)](../resources/NLP/) - Classical NLP, Transformers, LLMs  
-- [Advanced PyTorch](../resources/advanced_pytorch) – Performance tips, C++ extensions, custom backprop, dataloading
-- [MLOps](../resources/mlops.md) - Experiment tracking, versioning, deployment 
 - [Papers collection](../resources/nice_papers.md) - Curated foundational and topic-specific research
 - [Recommended books](../resources/books.md) - Established references for deep learning and ML theory
+- [Advanced PyTorch](../resources/advanced_pytorch) – Performance tips, C++ extensions, custom backprop, dataloading
+- [Computer Vision (CV)](../resources/CV/) - CNNs, object detection, Vision Transformers  
+- [Natural Language Processing (NLP)](../resources/NLP/) - Classical NLP, Transformers, LLMs  
+- [MLOps](../resources/mlops.md) - Experiment tracking, versioning, deployment 
+
