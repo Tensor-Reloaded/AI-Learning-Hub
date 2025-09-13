@@ -17,3 +17,4 @@
 
 * Follow https://github.com/lucidrains/vit-pytorch for SOTA ViT advancements.
 * Follow https://github.com/lucidrains/x-transformers for SOTA Transformer advancements.
+* Check and complete the HuggingFace courses: https://huggingface.co/learn.
