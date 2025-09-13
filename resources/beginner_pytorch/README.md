@@ -15,6 +15,7 @@ Start with:
 
 ## Notebooks Overview
 
+* [00. Tensor Operations](./00_tensor_operations.ipynb)
 * [01. Custom Dataset](./01_custom_dataset.ipynb)
 * [02. DataLoader](./02_dataloader.ipynb)
 * [03. Simple Training](./03_simple_training.ipynb)
