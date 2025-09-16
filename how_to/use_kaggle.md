@@ -101,16 +101,18 @@ Select a Notebook and the version. Also add a submission description.
 
 ### Step 5: Share with the Reviewer
 
-On the notebook page, click **Share**, select Private and share with people.
+On the notebook page, click **Share**, select Private and share with people. 
+If you select Public, your notebook will be visible to everyone. 
+Share with the following group: `uaic-fii-rn`.
 
-![img.png](../images/Kaggle_hw_7.png)
-
-Always share with onepathsilkworm and give appropriate permissions.
-
-![img.png](../images/Kaggle_hw_8.png)
+<img width="730" height="425" alt="image" src="https://github.com/user-attachments/assets/7b96317f-3f9c-4b7f-ad75-8acba132c111" />
 
 
-> Public notebooks are visible to anyone.
+Remember: always share with `uaic-fii-rn` and give appropriate permissions.
+
+
+
+> Public notebooks are visible to everyone.
 
 ### Quick Checklist Before Submitting
 
@@ -121,7 +123,7 @@ Always share with onepathsilkworm and give appropriate permissions.
 - [x] Submission file is created and visible in output
 - [x] Notebook version is named clearly
 - [x] Correct version is selected for submission
-- [x] Notebook is shared with the reviewer
+- [x] Notebook is shared with the reviewer (`uaic-fii-rn`)
 
 ---
 
@@ -133,3 +135,4 @@ Always share with onepathsilkworm and give appropriate permissions.
 - **Save & Run All** consumes GPU time if a GPU accelerator is enabled
 - Avoid wasting GPU quota on intermediate runs or debug sessions
 - Keep enough GPU hours reserved for the final full run and submission
+
