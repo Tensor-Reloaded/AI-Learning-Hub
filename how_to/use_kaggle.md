@@ -105,10 +105,15 @@ On the notebook page, click **Share**, select Private and share with people.
 If you select Public, your notebook will be visible to everyone. 
 Share with the notebook with the teacher.
 
-<img width="730" height="425" alt="image" src="https://github.com/user-attachments/assets/7b96317f-3f9c-4b7f-ad75-8acba132c111" />
+<!-- <img width="730" height="425" alt="image" src="https://github.com/user-attachments/assets/7b96317f-3f9c-4b7f-ad75-8acba132c111" /> -->
+
+![img.png](../images/Kaggle_hw_7.png)
+
 
 
 Remember: always share with the teacher and give appropriate permissions.
+
+![img.png](../images/Kaggle_hw_8.png)
 
 
 
@@ -135,5 +140,6 @@ Remember: always share with the teacher and give appropriate permissions.
 - **Save & Run All** consumes GPU time if a GPU accelerator is enabled
 - Avoid wasting GPU quota on intermediate runs or debug sessions
 - Keep enough GPU hours reserved for the final full run and submission
+
 
 
