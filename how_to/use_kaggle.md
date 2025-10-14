@@ -4,6 +4,20 @@ Kaggle offers free hosted notebooks (with GPUs), datasets, and competition envir
 
 ---
 
+### Quick Checklist Before Submitting
+
+- [x] Notebook is linked to the correct competition
+- [x] Dataset is correctly loaded
+- [x] `submission.csv` is generated in code
+- [x] Used **Save & Run All**
+- [x] Submission file is created and visible in output
+- [x] The score is visible in the notebook
+- [x] Notebook version is named clearly
+- [x] Correct version is selected for submission
+- [x] Notebook is shared with the reviewer
+
+---
+
 ## 1. Getting Started
 
 - Create an account at [kaggle.com](https://www.kaggle.com)
@@ -131,7 +145,7 @@ Remember: always share with the teacher and give appropriate permissions.
 - [x] The score is visible in the notebook
 - [x] Notebook version is named clearly
 - [x] Correct version is selected for submission
-- [x] Notebook is shared with the reviewer (`uaic-fii-rn`)
+- [x] Notebook is shared with the reviewer
 
 ---
 
@@ -143,6 +157,7 @@ Remember: always share with the teacher and give appropriate permissions.
 - **Save & Run All** consumes GPU time if a GPU accelerator is enabled
 - Avoid wasting GPU quota on intermediate runs or debug sessions
 - Keep enough GPU hours reserved for the final full run and submission
+
 
 
 
