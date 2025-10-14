@@ -93,6 +93,8 @@ After a notebook has been saved and run, the submission.csv file is vizible in t
 
 Click **Submit to Competition**
 
+You must submit an entire notebook to the competition. There are multiple ways to submit, either from the competition page, or directly from a saved notebook.
+
 ![img.png](../images/Kaggle_hw_6.png)
 
 Select a Notebook and the version. Also add a submission description.
@@ -126,6 +128,7 @@ Remember: always share with the teacher and give appropriate permissions.
 - [x] `submission.csv` is generated in code
 - [x] Used **Save & Run All**
 - [x] Submission file is created and visible in output
+- [x] The score is visible in the notebook
 - [x] Notebook version is named clearly
 - [x] Correct version is selected for submission
 - [x] Notebook is shared with the reviewer (`uaic-fii-rn`)
@@ -140,6 +143,7 @@ Remember: always share with the teacher and give appropriate permissions.
 - **Save & Run All** consumes GPU time if a GPU accelerator is enabled
 - Avoid wasting GPU quota on intermediate runs or debug sessions
 - Keep enough GPU hours reserved for the final full run and submission
+
 
 
 
