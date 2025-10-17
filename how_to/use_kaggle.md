@@ -4,6 +4,20 @@ Kaggle offers free hosted notebooks (with GPUs), datasets, and competition envir
 
 ---
 
+### Quick Checklist Before Submitting
+
+- [x] Notebook is linked to the correct competition
+- [x] Dataset is correctly loaded
+- [x] `submission.csv` is generated in code
+- [x] Used **Save & Run All**
+- [x] Submission file is created and visible in output
+- [x] The score is visible in the notebook
+- [x] Notebook version is named clearly
+- [x] Correct version is selected for submission
+- [x] Notebook is shared with the reviewer
+
+---
+
 ## 1. Getting Started
 
 - Create an account at [kaggle.com](https://www.kaggle.com)
@@ -93,6 +107,8 @@ After a notebook has been saved and run, the submission.csv file is vizible in t
 
 Click **Submit to Competition**
 
+You must submit an entire notebook to the competition. There are multiple ways to submit, either from the competition page, or directly from a saved notebook.
+
 ![img.png](../images/Kaggle_hw_6.png)
 
 Select a Notebook and the version. Also add a submission description.
@@ -103,12 +119,17 @@ Select a Notebook and the version. Also add a submission description.
 
 On the notebook page, click **Share**, select Private and share with people. 
 If you select Public, your notebook will be visible to everyone. 
-Share with the following group: `uaic-fii-rn`.
+Share with the notebook with the teacher.
 
-<img width="730" height="425" alt="image" src="https://github.com/user-attachments/assets/7b96317f-3f9c-4b7f-ad75-8acba132c111" />
+<!-- <img width="730" height="425" alt="image" src="https://github.com/user-attachments/assets/7b96317f-3f9c-4b7f-ad75-8acba132c111" /> -->
+
+![img.png](../images/Kaggle_hw_7.png)
 
 
-Remember: always share with `uaic-fii-rn` and give appropriate permissions.
+
+Remember: always share with the teacher and give appropriate permissions.
+
+![img.png](../images/Kaggle_hw_8.png)
 
 
 
@@ -121,9 +142,10 @@ Remember: always share with `uaic-fii-rn` and give appropriate permissions.
 - [x] `submission.csv` is generated in code
 - [x] Used **Save & Run All**
 - [x] Submission file is created and visible in output
+- [x] The score is visible in the notebook
 - [x] Notebook version is named clearly
 - [x] Correct version is selected for submission
-- [x] Notebook is shared with the reviewer (`uaic-fii-rn`)
+- [x] Notebook is shared with the reviewer
 
 ---
 
@@ -135,4 +157,8 @@ Remember: always share with `uaic-fii-rn` and give appropriate permissions.
 - **Save & Run All** consumes GPU time if a GPU accelerator is enabled
 - Avoid wasting GPU quota on intermediate runs or debug sessions
 - Keep enough GPU hours reserved for the final full run and submission
+
+
+
+
 
