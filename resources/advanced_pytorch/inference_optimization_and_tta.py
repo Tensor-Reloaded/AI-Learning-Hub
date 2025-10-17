@@ -66,7 +66,8 @@ def tta_inference(model, batches: Tuple[Tuple[torch.Tensor, torch.Tensor], ...],
         elif tta_type == "translate":
             padding_size = 2
             image_size = 32
-            padded = v2.functional.pad(data, [padding_size])
+            # We pad using the same value the model has seen during training
+            padded = v2.functional.pad(data, [padding_size], fill=0.5)
             for i in [-2, 0, 2]:
                 for j in [-2, 0, 2]:
                     if i == 0 and j == 0:
@@ -77,7 +78,7 @@ def tta_inference(model, batches: Tuple[Tuple[torch.Tensor, torch.Tensor], ...],
         elif tta_type == "mirroring_and_translate":
             padding_size = 2
             image_size = 32
-            padded = v2.functional.pad(data, [padding_size])
+            padded = v2.functional.pad(data, [padding_size], fill=0.5)
             for i in [-2, 0, 2]:
                 for j in [-2, 0, 2]:
                     if i == 0 and j == 0:
@@ -148,6 +149,7 @@ def do_speed_test(data: Tuple[Tuple[torch.Tensor, torch.Tensor], ...],
 
             print(speed_results)
 
+    # CUDA Results
     # +--------+----------------+----------+-------------------------+----------+-------------+
     # | Device |     Dtype      | TTA Type |        Model Type       | Accuracy |   Elapsed   |
     # +--------+----------------+----------+-------------------------+----------+-------------+
@@ -196,6 +198,7 @@ def do_speed_test(data: Tuple[Tuple[torch.Tensor, torch.Tensor], ...],
     # |  cuda  | torch.float32  |   none   |      compiled model     |  0.8628  | 0.510377062 |
     # +--------+----------------+----------+-------------------------+----------+-------------+
 
+    # CPU Results
     # +--------+----------------+----------+-------------------------+----------+-------------+
     # | Device |     Dtype      | TTA Type |        Model Type       | Accuracy |   Elapsed   |
     # +--------+----------------+----------+-------------------------+----------+-------------+
@@ -266,22 +269,22 @@ def do_tta_test(data: Tuple[Tuple[torch.Tensor, torch.Tensor], ...],
 
     print(tta_results)
 
-    # +--------+----------------+-------------------------+----------------+----------+--------------+
-    # | Device |     Dtype      |         TTA Type        |   Model Type   | Accuracy |   Elapsed    |
-    # +--------+----------------+-------------------------+----------------+----------+--------------+
-    # |  cuda  | torch.bfloat16 |           none          | scripted model |  0.8627  | 0.686984949  |
-    # |  cuda  | torch.bfloat16 |        mirroring        | scripted model |  0.8729  | 0.912047684  |
-    # |  cuda  | torch.bfloat16 |        translate        | scripted model |  0.8729  |  4.07882746  |
-    # |  cuda  | torch.bfloat16 | mirroring_and_translate | scripted model |  0.8795  | 7.338382004  |
-    # |  cuda  | torch.float16  |           none          | scripted model |  0.8629  | 0.897940889  |
-    # |  cuda  | torch.float16  |        mirroring        | scripted model |  0.8729  | 1.272187126  |
-    # |  cuda  | torch.float16  |        translate        | scripted model |  0.8727  |  5.75703762  |
-    # |  cuda  | torch.float16  | mirroring_and_translate | scripted model |  0.8795  | 10.648630153 |
-    # |  cuda  | torch.float32  |           none          | scripted model |  0.8628  | 0.817683462  |
-    # |  cuda  | torch.float32  |        mirroring        | scripted model |  0.8728  | 1.600388468  |
-    # |  cuda  | torch.float32  |        translate        | scripted model |  0.8726  | 6.986309829  |
-    # |  cuda  | torch.float32  | mirroring_and_translate | scripted model |  0.8795  | 13.140209483 |
-    # +--------+----------------+-------------------------+----------------+----------+--------------+
+    # +--------+----------------+-------------------------+----------------+----------+-------------+
+    # | Device |     Dtype      |         TTA Type        |   Model Type   | Accuracy |   Elapsed   |
+    # +--------+----------------+-------------------------+----------------+----------+-------------+
+    # |  cuda  | torch.bfloat16 |           none          | scripted model |  0.8627  |  0.86833901 |
+    # |  cuda  | torch.bfloat16 |        mirroring        | scripted model |  0.8729  | 0.369391463 |
+    # |  cuda  | torch.bfloat16 |        translate        | scripted model |  0.8733  | 1.242899479 |
+    # |  cuda  | torch.bfloat16 | mirroring_and_translate | scripted model |  0.8783  | 2.240457862 |
+    # |  cuda  | torch.float16  |           none          | scripted model |  0.8629  | 0.359551112 |
+    # |  cuda  | torch.float16  |        mirroring        | scripted model |  0.8729  | 0.314461259 |
+    # |  cuda  | torch.float16  |        translate        | scripted model |  0.8733  | 1.377882807 |
+    # |  cuda  | torch.float16  | mirroring_and_translate | scripted model |  0.8783  |  2.50420385 |
+    # |  cuda  | torch.float32  |           none          | scripted model |  0.8628  | 0.302331347 |
+    # |  cuda  | torch.float32  |        mirroring        | scripted model |  0.8728  | 0.323998472 |
+    # |  cuda  | torch.float32  |        translate        | scripted model |  0.8735  | 1.356375027 |
+    # |  cuda  | torch.float32  | mirroring_and_translate | scripted model |  0.8785  | 2.535533913 |
+    # +--------+----------------+-------------------------+----------------+----------+-------------+
 
 
 def main(model_path: str):
@@ -323,4 +326,3 @@ if __name__ == "__main__":
     torch.set_float32_matmul_precision('high')
     model_path = os.path.join(str(Path(__file__).parent.resolve()), "checkpoints", "best.pth")
     main(model_path)
-
