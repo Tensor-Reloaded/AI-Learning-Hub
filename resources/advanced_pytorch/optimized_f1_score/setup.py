@@ -8,13 +8,13 @@ def get_extra_compile_args():
     if os.name == "nt":
         return {
             "msvc": ["/std:c++20", "/O2", "/DNDEBUG",
-                     "/arch:AVX2"
+                     # "/arch:AVX2"
                      ],
         }
     else:
         return {
             "cxx": ["-std=c++20", "-O3", "-DNDEBUG",
-                    "-mavx2"
+                    # "-mavx2"
                     ],
         }
 
@@ -28,10 +28,10 @@ if __name__ == "__main__":
                 ["f1_macro_cpp.cpp"],
                 extra_compile_args=get_extra_compile_args(),
                 define_macros=[
-                    # ("ARCH_DEFAULT", None)
-                    ("AVX2", None)
+                    ("ARCH_DEFAULT", None)
                 ],
             ),
         ],
         cmdclass={"build_ext": BuildExtension},
     )
+
