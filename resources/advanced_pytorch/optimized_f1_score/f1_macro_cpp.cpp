@@ -15,6 +15,7 @@ double f1_score(torch::Tensor x, torch::Tensor y) {
 }
 
 double f1_macro(torch::Tensor x, torch::Tensor y, int classes) {
+    // You can disable the checks if you own this function. Never do this if you can't control the input.
     TORCH_CHECK(x.sizes() == y.sizes(), "Input tensors must have the same shape");
     TORCH_CHECK(x.device() == y.device(), "Input tensors must be on the same device");
 
@@ -32,3 +33,4 @@ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
     m.def("f1_score", &f1_score, "F1 score for one class (bool tensors)");
     m.def("f1_macro", &f1_macro, "Macro F1 score (int tensors)");
 }
+
