@@ -75,8 +75,10 @@ Key papers proposing impactful data augmentation strategies.
 ## Reinforcement Learning (RL)
 
 
-- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602) (Atari, 2013)
-- TODO: ...
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602) (Q-Learning, 2013)
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1712.01815) (AlphaZero, 2017)
+- [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/pdf/1911.08265) (MuZero, 2020)
+- [Combining Deep Reinforcement Learning and Search for Imperfect-Information Games](https://arxiv.org/pdf/2007.13544) (ReBeL, 2020)
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948) (DeepSeek-R1, 2025)
 
 ---
@@ -119,3 +121,4 @@ Landmark papers in object detection, classification, and modern CV techniques.
 - [Learning to Summarize with Human Feedback](https://arxiv.org/pdf/2009.01325) (RLHF Summarization, 2020)
 - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903) (CoT, 2022)
 - [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961) (Switch Transformer, 2021)
+
