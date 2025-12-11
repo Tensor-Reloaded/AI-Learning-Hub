@@ -47,6 +47,7 @@ Papers proposing efficient or alternative attention mechanisms.
 - [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/pdf/2307.08691) (FlashAttention-2, 2023)
 - [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/pdf/2407.08608) (FlashAttention-3, 2024)
 - [Radial Attention: O(n\log n) Sparse Attention with Energy Decay for Long Video Generation](https://arxiv.org/pdf/2506.19852) (RadialAttention, 2025)
+- [Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free](https://openreview.net/forum?id=1b7whO4SfY) (2025)
 
 ---
 
@@ -121,4 +122,5 @@ Landmark papers in object detection, classification, and modern CV techniques.
 - [Learning to Summarize with Human Feedback](https://arxiv.org/pdf/2009.01325) (RLHF Summarization, 2020)
 - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/pdf/2201.11903) (CoT, 2022)
 - [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961) (Switch Transformer, 2021)
+
 
