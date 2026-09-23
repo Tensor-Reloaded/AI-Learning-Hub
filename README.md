@@ -44,5 +44,5 @@ Hands-on resources for using GenAI tools without deep ML background
 ---
 | Course   | Link    |
 | -------- | ------- |
-| Neural Networks @ UAIC FII  | https://github.com/Tensor-Reloaded/Neural-Networks-Template-2025    |
-| Advanced Topics in Neural Networks @ UAIC FII  | https://github.com/Tensor-Reloaded/Advanced-Topics-in-Neural-Networks-Template-2025    |
+| Neural Networks @ UAIC FII  | https://github.com/Tensor-Reloaded/Neural-Networks-2026    |
+| Deep Learning and Generative AI @ UAIC FII  | https://github.com/Tensor-Reloaded/Deep-Learning-and-Generative-AI-2026    |
