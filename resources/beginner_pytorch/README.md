@@ -22,3 +22,8 @@ Start with:
 * [04. Optimizers](./04_optimizers.ipynb)
 * [05. Learning Rate Schedulers](./05_lr_schedulers.ipynb)
 * [06. Simple Data Augmentation](./06_data_augmentation.ipynb)
+
+
+---
+
+Also check https://mlsysbook.ai/tinytorch/.
