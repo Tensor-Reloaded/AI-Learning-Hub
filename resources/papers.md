@@ -38,17 +38,21 @@ Classical papers worth reading and understanding deeply.
 * [Sharpness-Aware Minimization for Efficiently Improving Generalization](https://arxiv.org/pdf/2010.01412) (SAMOptim, 2020)
 * [94% on CIFAR-10 in 3.29 Seconds on a Single GPU](https://arxiv.org/pdf/2404.00498) (2024)
 * [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732) (2022)
+* [Muon is Scalable for LLM Training](https://arxiv.org/pdf/2502.16982) (2025)
+* [SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales](https://arxiv.org/abs/2607.20548) (2026)
 
 Papers proposing efficient or alternative attention mechanisms.
 - [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509) (SparseAttention, 2019)
 - [Performer: Rethinking Attention with Fast Linear Attention](https://arxiv.org/pdf/2009.14794) (Performer, 2020)
+- [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/pdf/2006.16236) (2020)
 - [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/pdf/2006.04768) (Linformer, 2020)
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135) (FlashAttention, 2022)
 - [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/pdf/2307.08691) (FlashAttention-2, 2023)
 - [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/pdf/2407.08608) (FlashAttention-3, 2024)
 - [Radial Attention: O(n\log n) Sparse Attention with Energy Decay for Long Video Generation](https://arxiv.org/pdf/2506.19852) (RadialAttention, 2025)
 - [Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free](https://openreview.net/forum?id=1b7whO4SfY) (2025)
-
+- [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/pdf/2502.11089) (2025)
+- [Kimi Linear: An Expressive, Efficient Attention Architecture](https://arxiv.org/pdf/2510.26692) (2025)
 ---
 
 ## Architectures
@@ -60,6 +64,8 @@ Papers proposing efficient or alternative attention mechanisms.
 - [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/pdf/2302.10866) (Hyena, 2023)
 - [Perceiver: General Perception with Iterative Attention](https://arxiv.org/pdf/2103.03206) (Perceiver, 2021)
 - [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/pdf/2107.14795) (PerceiverIO, 2021)
+- [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/pdf/2403.19887) (2024)
+- [Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models](https://arxiv.org/abs/2402.19427) (2024)
 
 ---
 
@@ -77,10 +83,11 @@ Key papers proposing impactful data augmentation strategies.
 
 
 - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602) (Q-Learning, 2013)
-- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1712.01815) (AlphaZero, 2017)
+- [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/pdf/1712.01815) (AlphaZero, 2017)
 - [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/pdf/1911.08265) (MuZero, 2020)
 - [Combining Deep Reinforcement Learning and Search for Imperfect-Information Games](https://arxiv.org/pdf/2007.13544) (ReBeL, 2020)
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948) (DeepSeek-R1, 2025)
+- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) (2025)
 
 ---
 
@@ -92,7 +99,8 @@ Key papers proposing impactful data augmentation strategies.
 - [Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/pdf/2104.14294) (DINO, 2021)
 - [**Self-supervised learning: The dark matter of intelligence**](https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/) (LeCun's Dark Matter, 2021)
 - [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) (JEPA, 2022)
-
+- [Revisiting Feature Prediction for Learning Visual Representations from Video](https://arxiv.org/abs/2404.08471) (V-JEPA, 2024)
+- [LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics](arxiv.org/abs/2511.08544) (LeJEPA, 2025)
 ---
 
 ## Computer Vision (CV)
@@ -109,6 +117,7 @@ Landmark papers in object detection, classification, and modern CV techniques.
 - [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/pdf/2103.14030) (Swin, 2021)
 - [Segment Anything](https://arxiv.org/pdf/2304.02643) (SAM, 2023)
 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020) (CLIP, 2021)
+- [DINOv3](https://arxiv.org/abs/2508.10104) (DINOv3, 2025)
 
 ---
 
