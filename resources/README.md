@@ -23,3 +23,4 @@
   * Implement 1000+ algorithms from scratch, from foundational ML to CUDA kernels, with the math, visualizations, and research papers behind them.
 * Check https://mlsysbook.ai/tinytorch/
   * Implement your own PyTorch
+* Geometric Deep Learning @ Cambridge: https://www.cl.cam.ac.uk/teaching/2526/L65/
