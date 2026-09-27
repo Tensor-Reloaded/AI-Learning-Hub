@@ -1,11 +1,11 @@
 # Environment setup
 
 PyTorch has release binaries for with support for CUDA on Linux and Windows, which require NVIDIA GPUs.
-PyTorch also has support for ROCm (AMD GPUs) on Linux and Metal GPUs (M3-M4) on Mac.
+PyTorch also has support for ROCm (AMD GPUs) on Linux and Metal GPUs (M3-M4-M5) on Mac.
 
-The latest versions of PyTorch run on `python<=3.13`. 
+The latest versions of PyTorch run on `python<=3.15`. 
 
-1. Create a Python environment using conda. We recommend installing conda from [Miniforge](https://github.com/conda-forge/miniforge).
+1. Create a Python environment using conda. We recommend installing conda from [Miniforge](https://github.com/conda-forge/miniforge). 
 
 ```bash
 # Create the environment
@@ -18,19 +18,14 @@ conda config --add channels conda-forge
 conda install numpy
 ```
 
-2. Install the stable PyTorch (2.8.0+) from [pytorch.org](https://pytorch.org/get-started/locally/) using pip.
-
-* Example CPU: `pip install torch torchvision`
-* Example CUDA 12.8: `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128`
-* Example ROCm 6.3: `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.3`
+2. Install the stable PyTorch from [pytorch.org](https://pytorch.org/get-started/locally/) using pip.
 
 
-3. Install `tensorboard`, `wabdb`, `pandas` and `matplotlib` using conda.
+3. Install `tensorboard`, `wabdb`, `pandas` and `matplotlib` using conda/pip.
 ---
 
 Tips:
-* Linux and WSL-based projects are faster than Windows-based. Mac with M3 and M4 is also a good alternative.
-
+* Linux and WSL-based projects are faster than Windows-based. Mac is also a good alternative.
 * Stay up-to-date with the cuda versions.
 * Stay up-to-date with the python and PyTorch versions.
 
