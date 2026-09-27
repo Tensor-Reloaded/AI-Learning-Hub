@@ -1,6 +1,8 @@
 # Advanced PyTorch
 
 ---
+* Do check https://mlsysbook.ai/tinytorch/, an educational framework for building and optimizing ML.
+---
 
 ## Content overview
 
