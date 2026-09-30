@@ -6,6 +6,8 @@ Make sure you understand linear algebra and derivatives (see [prerequisites.md](
 
 Start with this excellent animated walkthrough of neural networks and backpropagation:
 * [Neural Networks (chapter 1 - chapter 4)](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) by 3Blue1Brown
+* Also check the Welch Labs "How Models Learn" videos.
+* Also check the 3b1b "Compression is intelligence" videos.
 
 ---
 
