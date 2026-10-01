@@ -30,7 +30,7 @@ You ought to become familiar with the following terms. These are part of the bas
 
 ## Next steps:
 
-Build your theoretical understanding reading [books](../resources/books.md).
+Build your theoretical understanding reading [books](../resources/books.md) or watching [videos](../resources/videos.md).
 
 Start exercising using [Dive into Deep Learning](https://d2l.ai/index.html):
 * Chapter 1 - Introduction: https://d2l.ai/chapter_introduction/index.html
