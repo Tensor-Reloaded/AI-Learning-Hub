@@ -28,6 +28,10 @@
   * [Yann LeCun's $1B Bet Against LLMs [Part 1]](https://www.youtube.com/watch?v=kYkIdXwW2AE)
   * [Yann LeCun's $1B Bet Against LLMs [Part 2]](https://www.youtube.com/watch?v=v_jDvpEGTIg)
 
+## ML/DL Courses:
+* Andrew Ng's [Machine Learning Specialization](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU).
+* MIT 6.S184 [Flow matching and Diffusion Models](https://www.youtube.com/playlist?list=PL57nT7tSGAAXwjhDYcxEycx5W7YoSrZyt).
+* Michael Bronstein's [Geometric Deep Learning Course](https://www.youtube.com/playlist?list=PLn2-dEmQeTfSLXW8yXP4q_Ii58wFdxb3C).
 
 ## Papers explained
 A good list of videos to present some classic papers up to SOTA methods in deep learning which help to understand how things work. We recommend to watch them in order, as they are somewhat correlated.
@@ -44,3 +48,6 @@ A good list of videos to present some classic papers up to SOTA methods in deep 
 11. [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://www.youtube.com/watch?v=9dSkvxS2EB0)
 12. [xLSTM: Extended Long Short-Term Memory](https://www.youtube.com/watch?v=0OaEv1a5jUM)
 13. [DeepSeek-RL Math](https://www.youtube.com/watch?v=bAWV_yrqx4w)
+
+## Other videos:
+* [Yann LeCun: World Models: Enabling the next AI revolution](https://youtu.be/72Xj8k5WQX4?si=VzcoRvYJPsxCRyD7)
