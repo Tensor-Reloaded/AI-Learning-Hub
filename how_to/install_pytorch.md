@@ -21,7 +21,7 @@ conda install numpy
 2. Install the stable PyTorch from [pytorch.org](https://pytorch.org/get-started/locally/) using pip.
 
 
-3. Install `tensorboard`, `wabdb`, `pandas` and `matplotlib` using conda/pip.
+3. Install `tensorboard`, `wandb`, `pandas` and `matplotlib` using conda/pip.
 ---
 
 Tips:
