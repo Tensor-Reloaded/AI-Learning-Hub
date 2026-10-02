@@ -113,7 +113,7 @@ class Trainer:
         if compile_is_slower:
             if sys.version_info < (3, 14):
                 # torch.jit.script is still a very good option, often faster than torch.compile for small models
-                # But is deprecated starting, and does not work for python >= 3.14
+                # But is deprecated, and does not work for python >= 3.14
                 self.model = torch.jit.script(model)
         else:
             # This compiles the model. See https://docs.pytorch.org/tutorials/intermediate/torch_compile_tutorial.html
