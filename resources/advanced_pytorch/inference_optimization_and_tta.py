@@ -31,6 +31,10 @@ except ImportError:
     HAS_OPENVINO = False
 
 
+print("HAS_TORCH_TENSORRT", HAS_TORCH_TENSORRT)
+print("HAS_OPENVINO", HAS_OPENVINO)
+
+
 class ClassificationModel(nn.Module):
     def __init__(self, backbone_name: str = "resnet18", num_classes: int = 10):
         super().__init__()
@@ -387,6 +391,7 @@ if __name__ == "__main__":
     import warnings
 
     warnings.filterwarnings("ignore", category=DeprecationWarning)
+    warnings.filterwarnings("ignore", category=FutureWarning)
 
     print("You need to install torch-tensorrt and openvino")
     if os.name == "nt":
