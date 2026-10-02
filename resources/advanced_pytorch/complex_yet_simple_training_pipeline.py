@@ -1,4 +1,5 @@
 import os
+import sys
 
 import torch
 import torch.nn as nn
@@ -10,7 +11,7 @@ from torch.utils.data import DataLoader, Dataset
 import timm
 from tqdm import tqdm
 
-disable_compile = False
+
 compile_is_slower = False
 
 
@@ -31,7 +32,7 @@ class CachedDataset(Dataset):
         image, label = self.dataset[i]
         if self.runtime_transforms is None:
             return image, label
-        # We clone the data here, otherwise the runtime transforms might corrupt our data. They really do! 
+        # We clone the data here, otherwise the runtime transforms might corrupt our data. They really do!
         # You should never trust your users, even if they are yourself.
         return self.runtime_transforms(image.clone()), label
 
@@ -109,9 +110,11 @@ class Trainer:
             torch.set_float32_matmul_precision('high')
 
         self.model = model.to(self.device)
-        if disable_compile or compile_is_slower:
-            # torch.jit.script is still a very good option, often faster than torch.compile, especially on windows
-            self.model = torch.jit.script(model)
+        if compile_is_slower:
+            if sys.version_info < (3, 14):
+                # torch.jit.script is still a very good option, often faster than torch.compile for small models
+                # But is deprecated starting, and does not work for python >= 3.14
+                self.model = torch.jit.script(model)
         else:
             # This compiles the model. See https://docs.pytorch.org/tutorials/intermediate/torch_compile_tutorial.html
             self.model.compile()
@@ -237,16 +240,16 @@ def main():
 
 
 if __name__ == "__main__":
-    # If torch.compile is actually slower on your machine.
-    # On my machine, 10 epochs with torch.compile take 5 minutes. With torch.jit.script, they take 4 minutes.
-    # Based on my experience, for small models without custom kernels, torch.jit.script is usually faster.
-    compile_is_slower = True
+    # Windows, py3.14, torch.compile, 27s/epoch
+    # Windows, py3.14, no compile, 25s/epoch
+    # Windows, py3.13, torch.jit.script (deprecated), 23s/epoch
+    # Windows, py3.13, torch.compile, 23s/epoch
+    # WSL, py3.14, torch.compile, 20s/epoch
+    # WSL, py3.14, no compile, 20s/epoch
 
+    compile_is_slower = True
+    
     if os.name == "nt":
-        print("torch.compile is disabled")
-        disable_compile = True
-    else:
-        print("torch.compile is enabled" + (" BUT not really used" if compile_is_slower else ""))
-        torch._dynamo.config.capture_scalar_outputs = True
+        print("you need to install triton-windows")
 
     main()
