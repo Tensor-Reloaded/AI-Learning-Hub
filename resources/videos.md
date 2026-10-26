@@ -22,6 +22,7 @@
   * [The Misconception that Almost Stopped AI [How Models Learn Part 1]](https://www.youtube.com/watch?v=NrO20Jb-hy0)
   * [The F=ma of Artificial Intelligence [Backpropagation, How Models Learn Part 2]](https://www.youtube.com/watch?v=VkHfRKewkWw)
   * [Why Deep Learning Works Unreasonably Well [How Models Learn Part 3]](https://www.youtube.com/watch?v=qx7hirqgfuU)
+  * [The most cited paper of the century is a brilliant hack](https://www.youtube.com/watch?v=QgH9sr7G13Q)
   * [What the Books Get Wrong about AI [Double Descent]](https://www.youtube.com/watch?v=z64a7USuGX0)
   * [How DeepSeek Rewrote the Transformer [MLA]](https://www.youtube.com/watch?v=0VLAoVGf_74)
   * [The Dark Matter of AI [Mechanistic Interpretability]](https://www.youtube.com/watch?v=UGO_Ehywuxc)
