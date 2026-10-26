@@ -25,3 +25,4 @@
 * Check https://mlsysbook.ai/tinytorch/
   * Implement your own PyTorch
 * Geometric Deep Learning @ Cambridge: https://www.cl.cam.ac.uk/teaching/2526/L65/
+* Check https://diffusion.csail.mit.edu/2026/index.html for Flow Matching and Diffusion Models
