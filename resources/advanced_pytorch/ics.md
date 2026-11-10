@@ -28,7 +28,10 @@ As a consequence, we have ICS: each layer is optimized in parallel while the inp
 **Why does backpropagation still work?** Because we use small learning rates, and the resulting shift is limited. The stale gradients often remain approximately correct.
 For deeper networks, Batch Normalization was introduced as a solution to ICS.
 
+**Want to learn more about ICS?** A very good resource is https://www.geeksforgeeks.org/deep-learning/internal-covariant-shift-problem-in-deep-learning/. 
+
 ### Alternative solution: Backforward Propagation
 Instead of computing every gradient from one forward pass, Backforward Propagation updates layers sequentially and recomputes the activations after each update. The next layer receives the latest activations, and its gradient is computed for the latest available network state.
 Standard backpropagation follows a Jacobi-style update. Backforward follows a Gauss–Seidel-style update.
 
+Check the following abstract for more info about Backforward Propagation: https://ojs.aaai.org/index.php/AAAI/article/view/27029/26801.
