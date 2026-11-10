@@ -1,5 +1,9 @@
 # Internal Covariate Shift (ICS)
 
+*and how backpropagation is slightly wrong*
+
+---
+
 Consider layer $l$. During the forward pass, we compute:
 
 ```math
