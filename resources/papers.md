@@ -66,6 +66,7 @@ Papers proposing efficient or alternative attention mechanisms.
 - [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://arxiv.org/pdf/2107.14795) (PerceiverIO, 2021)
 - [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/pdf/2403.19887) (2024)
 - [Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models](https://arxiv.org/abs/2402.19427) (2024)
+- [Mamba-3: Improved Sequence Modeling using State Space Principles](Mamba-3, 2026)
 
 ---
 
