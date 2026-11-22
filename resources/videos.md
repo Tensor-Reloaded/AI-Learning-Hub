@@ -15,6 +15,7 @@
   * [How might LLMs store facts | Deep Learning Chapter 7](https://www.youtube.com/watch?v=9-Jl0dxWQs8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=8)
   * [Reinventing Entropy | Compression is Intelligence Part 1](https://www.youtube.com/watch?v=l6DKRf-fAAM)
   * [But what is cross-entropy? | Compression is Intelligence Part 2](https://www.youtube.com/watch?v=GlYgs6v2YfU&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=9)
+  * [This algorithm changed how I think about compression | Information theory, part 3](https://www.youtube.com/watch?v=qbsb9DpdZ6s)
   * [But how do AI images and videos actually work? | Guest video by Welch Labs](https://www.youtube.com/watch?v=iv-5mZ_9CPY&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=10)
 * [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) (convolution example; convolutions in image processing; convolutions and polynomial multiplication; FFT)
 
