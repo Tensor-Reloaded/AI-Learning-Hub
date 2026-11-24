@@ -102,6 +102,7 @@ Key papers proposing impactful data augmentation strategies.
 - [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf) (JEPA, 2022)
 - [Revisiting Feature Prediction for Learning Visual Representations from Video](https://arxiv.org/abs/2404.08471) (V-JEPA, 2024)
 - [LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics](arxiv.org/abs/2511.08544) (LeJEPA, 2025)
+- [Proving and Improving the Platonic Representation Hypothesis with JEPAs](https://arxiv.org/abs/2610.39302) (JEPA, 2026)
 ---
 
 ## Computer Vision (CV)
